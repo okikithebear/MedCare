@@ -1,0 +1,14 @@
+.footer {
+  padding: 50px 0px;
+  background: #90ee90;
+}
+.footer_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1rem;
+}
+
+.footer-box {
+  width: 30%;
+}
