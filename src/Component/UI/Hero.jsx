@@ -23,7 +23,7 @@ const Hero = () => {
                                 <div className="box-02">
                                     <div className="box-03">
                                         <div className="box_img">
-                                            <img src={heroImg} alt="fit Image" />
+                                            <img src={heroImg} alt="Medcare" />
                                         </div>
                                     </div>
                                 </div>

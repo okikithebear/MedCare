@@ -29,7 +29,7 @@ const Exercises = () => {
                 </div>
 
                 <div className="exercise_item">
-                    <span className="exercise_icon"><img src={extended} alt="fit image" /></span>
+                    <span className="exercise_icon"><img src={extended} alt=" A trainer" /></span>
                     <div className="exercise_content">
                         <h4>Healthy Life</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, minima.</p>

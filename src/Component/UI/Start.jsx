@@ -7,7 +7,7 @@ const Start = () => {
         <div className="container">
             <div className="start_wrapper">
                 <div className="start_img">
-                    <img src={trainer} alt='fit image' />
+                    <img src={trainer} alt='A trainer' />
                 </div>
 
                 <div className="start_content">
