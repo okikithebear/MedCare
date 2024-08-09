@@ -1,5 +1,5 @@
 import React from 'react';
-import { motion } from 'framer-motion'; // Add this if you want to use Framer Motion for animations
+// import { motion } from 'framer-motion'; // Add this if you want to use Framer Motion for animations
 
 const Footer = () => {
     return (

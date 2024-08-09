@@ -2,7 +2,7 @@ import React from 'react'
 import "../../styles/exercises.css";
 import lunges from '../../assets/Img/lunges.png'
 import yoga from '../../assets/Img/yoga-pose.png'
-import extended from '../../assets/Img/extended.png'
+
 const Exercises = () => {
     return <section>
         <div className='container exercise_container'>
