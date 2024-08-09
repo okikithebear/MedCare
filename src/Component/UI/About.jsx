@@ -31,28 +31,46 @@ const About = () => {
                         <div className="bg-white p-8 rounded-lg shadow-lg h-full">
                             <h2 className="text-3xl font-semibold text-gray-800 mb-4">Beauty of the Plan</h2>
                             <p className="text-gray-700 mb-4">
-                                It's a personalized daily coaching via WhatsApp based on clients' convenience, time, and zone. As a Biomedical Scientist, clients have access to routine blood check.
+                                It's a personalized daily coaching via WhatsApp based on clients' convenience, time, and zone. As a Biomedical Scientist, clients have access to routine blood checks.
                             </p>
                             <h3 className="text-2xl font-semibold text-gray-800 mb-4">Services Rendered</h3>
                             <ul className="list-none space-y-4">
                                 <li className="flex items-start">
                                     <i className="fas fa-heartbeat text-red-500 mr-3"></i>
-                                    <span className="text-gray-700">Personalized health plan that's very convenient for the client</span>
+                                    <span className="text-gray-700">Maintenance plan for people not interested in losing or adding weight</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <i className="fas fa-apple-alt text-green-500 mr-3"></i>
-                                    <span className="text-gray-700">Affordable, cheap, easy diet that is not monotonous for clients</span>
+                                    <i className="fas fa-baby text-pink-500 mr-3"></i>
+                                    <span className="text-gray-700">Nursing mother's plan: for those who want to lose postpartum fat when their babies are around 6 months old</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <i className="fas fa-dumbbell text-blue-500 mr-3"></i>
-                                    <span className="text-gray-700">Tailored exercise plans for sustainable health</span>
+                                    <i className="fas fa-baby-carriage text-blue-500 mr-3"></i>
+                                    <span className="text-gray-700">Breastfeeding mother's plan</span>
                                 </li>
                                 <li className="flex items-start">
-                                    <i className="fas fa-user-md text-yellow-500 mr-3"></i>
-                                    <span className="text-gray-700">Routine blood checks available for clients</span>
+                                    <i className="fas fa-stethoscope text-purple-500 mr-3"></i>
+                                    <span className="text-gray-700">Plan to heal metabolic illnesses (e.g., ulcer, PCOS, insomnia, etc.)</span>
                                 </li>
+                                <li className="flex items-start">
+                                    <i className="fas fa-weight text-yellow-500 mr-3"></i>
+                                    <span className="text-gray-700">Weight gain tips</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <i className="fas fa-bullseye text-orange-500 mr-3"></i>
+                                    <span className="text-gray-700">Spot reduction: for those who want to lose fat in specific areas like the belly or butt without losing general body fat</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <i className="fas fa-balance-scale text-green-500 mr-3"></i>
+                                    <span className="text-gray-700">Weight maintenance: for those satisfied with their current weight but need a maintenance plan</span>
+                                </li>
+                                <li className="flex items-start">
+                                    <i className="fas fa-star text-teal-500 mr-3"></i>
+                                    <span className="text-gray-700">Young look and glowing skin plan</span>
+                                </li>
+
                             </ul>
                         </div>
+
                     </div>
                 </div>
 

@@ -10,12 +10,19 @@ const Hero = () => {
                 <div className="hero_wrapper">
                     {/* hero content */}
                     <div className="hero_content">
-                        <h2 className='section_title'>Exercise is key to a <span className='highlights'>Healthy</span> Lifestyle</h2>
-                        <p>Regular exercise boosts physical and mental health, enhancing overall well-being and vitality. Start your journey to a healthier you today!</p>
+                        <h2 className='section_title'>
+                            Exercise is not the only key to <span className='highlights'>weight loss</span> / <span className='highlights'>weight management</span>
+                        </h2>
+                        <p>
+                            Exercise is just <span className='highlights'>20 percent</span> of a healthy lifestyle and weight loss/weight management.
+                            De-medcare Health Plan offers the other <span className='highlights'>80 percent</span> for weight loss.
+                            And that's the uniqueness of <span className='highlights'>De-medcare</span>.
+                        </p>
                         <div className="hero_btn">
-                            <button className="register_btn">Get started</button>
+                            <button className="register_btn" onClick={() => window.open('https://wa.me/message/RL5USQVQAEI5K1', '_blank')}>Get started</button>
                         </div>
                     </div>
+
                     {/* hero image */}
                     <div className="hero_img">
                         <div className="hero_img-wrapper">

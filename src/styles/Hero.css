@@ -25,7 +25,8 @@
 .hero_btns {
   display: flex;
   align-items: center;
-  gap: 2.7rem; /* Changed column-gap to gap for broader browser support */
+  gap: 2.7rem;
+  /* Changed column-gap to gap for broader browser support */
 }
 
 .box-01 {
@@ -155,4 +156,100 @@
 
 .dumble_icon img {
   width: 100%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 0;
+  background: #f3f4f6;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background: url('../../assets/Img/gym-02.png') no-repeat center/cover; */
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.hero_content {
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  animation: fadeInUp 1s ease-out;
+}
+
+.section_title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.highlights {
+  color: var(--primary-color);
+}
+
+.hero_content p {
+  font-size: 1rem;
+  color: var(--heading-color);
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.hero_btn .register_btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero_btn .register_btn:hover {
+  background-color: black;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero_wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero_content {
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .hero_content .section_title {
+    font-size: 2rem;
+    margin-left: 5.5rem;
+  }
+
+  .hero_content p {
+    font-size: 0.9rem;
+  }
+
+  .hero_btn .register_btn {
+    padding: 8px 16px;
+    margin-bottom: 2rem;
+  }
 }

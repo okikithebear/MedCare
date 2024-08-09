@@ -6,7 +6,8 @@ import Start from './Component/UI/Start';
 import About from './Component/UI/About';
 import Testimonial from './Component/UI/Testimonial';
 import Nutrition from './Component/UI/Nutrition';
-// import Footer from './Component/UI/Footer';
+import Questionnaire from './Component/UI/Questionnaire';
+import Footer from './Component/UI/Footer';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <Exercises />
       <Start />
       <Testimonial />
-      {/* <Footer /> */}
+      <Questionnaire />
+      <Footer />
     </div>
   );
 }

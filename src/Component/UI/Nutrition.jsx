@@ -32,8 +32,15 @@ const Nutrition = () => {
                                 <h2 className="text-2xl font-semibold text-green-800">Healthy Eating Habits</h2>
                             </div>
                             <p className="text-gray-700 mb-4">
-                                Discover the secrets to a sustainable and enjoyable diet that keeps you feeling your best! Embrace a variety of flavors with our personalized meal plans.
+                                <span className="font-semibold">De-medcare Health Plan</span> says <span className="text-red-500 font-bold">NO</span> to restrictive or fat diets.
                             </p>
+                            <p className="text-gray-700 mb-4">
+                                It offers a wide variety of normal, regular meals—no need for special shopping!
+                            </p>
+                            <p className="text-gray-700">
+                                Start the meal plan with the food you already have at home.
+                            </p>
+
                         </motion.div>
                     </div>
 
