@@ -16,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <Nutrition />
+
       <Exercises />
       <Start />
       <Testimonial />

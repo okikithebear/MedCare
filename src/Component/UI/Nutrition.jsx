@@ -1,7 +1,7 @@
 import React from 'react';
 import 'tailwindcss/tailwind.css';
 import { motion } from 'framer-motion';
-import { FaAppleAlt, FaLeaf, FaHeartbeat, FaBrain, FaSmile, FaBolt } from 'react-icons/fa';  // Added FaBolt here
+import { FaAppleAlt, FaLeaf, FaBrain, FaBolt } from 'react-icons/fa';  // Added FaBolt here
 
 const Nutrition = () => {
     return (
@@ -53,25 +53,21 @@ const Nutrition = () => {
                         >
                             <div className="flex items-center mb-4">
                                 <FaLeaf className="text-green-600 text-4xl mr-4" />
-                                <h2 className="text-2xl font-semibold text-green-800">Benefits of a Balanced Diet</h2>
+                                <h2 className="text-2xl font-semibold text-green-800">What Makes Our Plan Unique?</h2>
                             </div>
+                            <p className="text-gray-700 mb-4">
+                                <span className="font-semibold">De-medcare Health Plan</span> is designed to fit seamlessly into your lifestyle
+                            </p>
                             <ul className="list-none space-y-4">
                                 <li className="flex items-center">
                                     <FaBolt className="text-yellow-500 text-2xl mr-3" />
-                                    <span className="text-gray-700">Boosts Energy and Vitality</span>
+                                    <span className="text-gray-700">It helps clients build sustainable healthy lifestyle</span>
                                 </li>
                                 <li className="flex items-center">
                                     <FaBrain className="text-blue-500 text-2xl mr-3" />
-                                    <span className="text-gray-700">Enhances Cognitive Function</span>
+                                    <span className="text-gray-700">Consistent pattern of healthy eating</span>
                                 </li>
-                                <li className="flex items-center">
-                                    <FaHeartbeat className="text-red-500 text-2xl mr-3" />
-                                    <span className="text-gray-700">Supports Heart Health</span>
-                                </li>
-                                <li className="flex items-center">
-                                    <FaSmile className="text-green-500 text-2xl mr-3" />
-                                    <span className="text-gray-700">Improves Mood and Well-Being</span>
-                                </li>
+
                             </ul>
                         </motion.div>
                     </div>

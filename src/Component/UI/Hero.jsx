@@ -19,7 +19,7 @@ const Hero = () => {
                             And that's the uniqueness of <span className='highlights'>De-medcare</span>.
                         </p>
                         <div className="hero_btn">
-                            <button className="register_btn" onClick={() => window.open('https://wa.me/message/RL5USQVQAEI5K1', '_blank')}>Get started</button>
+                            <button className="register_btn" onClick={() => window.open('https://wa.me/message/RL5USQVQAEI5K1', '_blank')} >  <i className="fab fa-whatsapp text-xl mr-2"></i>Get started</button>
                         </div>
                     </div>
 

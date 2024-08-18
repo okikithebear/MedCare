@@ -34,7 +34,7 @@ const Questionnaire = () => {
                 <a
                     href={questionnaire}
                     download
-                    className="inline-block bg-gradient-to-r from-blue-500 to-indigo-500 text-white font-semibold py-4 px-8 rounded-full shadow-lg hover:from-blue-600 hover:to-indigo-600 transition duration-300 transform hover:scale-105"
+                    className="inline-block bg-gradient-to-r from-purple-600 to-indigo-500 text-white font-semibold py-4 px-8 rounded-full shadow-lg hover:from-purple-600 hover:to-indigo-600 transition duration-300 transform hover:scale-105"
                 >
                     Download Questionnaire
                 </a>

@@ -232,6 +232,7 @@
   .hero_wrapper {
     flex-direction: column;
     align-items: center;
+    padding-top: 0px;
   }
 
   .hero_content {
