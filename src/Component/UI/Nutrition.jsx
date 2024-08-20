@@ -32,7 +32,7 @@ const Nutrition = () => {
                                 <h2 className="text-2xl font-semibold text-green-800">Healthy Eating Habits</h2>
                             </div>
                             <p className="text-gray-700 mb-4">
-                                <span className="font-semibold">De-medcare Health Plan</span> says <span className="text-red-500 font-bold">NO</span> to restrictive or fat diets.
+                                <span className="font-semibold">De-medcare Health Plan</span> says <span className="text-red-500 font-bold">NO</span> to restrictive or fad diets.
                             </p>
                             <p className="text-gray-700 mb-4">
                                 It offers a wide variety of normal, regular meals—no need for special shopping!

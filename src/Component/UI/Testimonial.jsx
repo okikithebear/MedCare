@@ -5,12 +5,16 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 
-import Picture1 from '../../assets/Img/Picture (7).jpg';
-import Picture2 from '../../assets/Img/Picture (8).jpg';
+import Picture1 from '../../assets/Img/pic1.jpg';
+import Picture2 from '../../assets/Img/pic2.jpg';
 import Picture3 from '../../assets/Img/Picture (5).jpg';
 import Picture4 from '../../assets/Img/Picture (4).jpg';
 import Picture5 from '../../assets/Img/2db24e6c-a714-4e5f-9553-be2efd3e62f6.jpg';
-import Picture6 from '../../assets/Img/c15015ac-7196-4a86-a290-e357fbe2b9a1.jpeg';
+import Picture6 from '../../assets/Img/pic3.jpg';
+import Picture7 from '../../assets/Img/pic4.jpg';
+import Picture8 from '../../assets/Img/pic5.jpg';
+
+
 
 
 const testimonials = [
@@ -38,7 +42,14 @@ const testimonials = [
         image: Picture6,
 
     },
+    {
+        image: Picture7,
 
+    },
+    {
+        image: Picture8,
+
+    },
 ];
 
 const Testimonial = () => {
